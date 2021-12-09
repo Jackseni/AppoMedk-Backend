@@ -33,6 +33,6 @@ app.use("/api", require("./routes/consultorio"));
 app.use("/api", require("./routes/centro-salud"));
 app.use("/api", require("./routes/correoRoutes"));
 
-app.listen( process.env.PORT, () => {
-    console.log(`Servidor corriendo en puerto ${ process.env.PORT }`);
+app.listen( process.env.PORT || 4000, () => {
+    console.log(`Servidor corriendo en puerto ${ process.env.PORT || 4000}`);
 });
