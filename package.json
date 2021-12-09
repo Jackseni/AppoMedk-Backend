@@ -2,10 +2,9 @@
   "name": "appmedk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node ./index.js"
   },
   "author": "Heidy Jackseni",
   "license": "ISC",
@@ -26,7 +25,7 @@
     "nodemailer": "^6.7.2"
   },
   "devDependencies": {
- //   "morgan": "^1.10.0",
-  //  "nodemon": "^2.0.15"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
   }
 }
