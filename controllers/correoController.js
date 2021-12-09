@@ -23,7 +23,7 @@ const envioCorreo = async () => {
     }
 
     for (const cita of citas) {
-        const message = `Estimado ${cita.idUser.name} este correo es para recordarle que tiene una cita agendada para el dia ${getDateFormat(cita.fecha)}, de ${cita.empieza} a ${cita.finaliza}. Para mas informacion visite el sitio web en la seccion de mis citas`
+        const message = `Estimad@ ${cita.idUser.name} este correo es para recordarle que tiene una cita agendada para el dia ${getDateFormat(cita.fecha)}, de ${cita.empieza} a ${cita.finaliza}. Para mas informacion visite el sitio web en la seccion de mis citas`
 
         const opciones = {
             from: 'appmedk@gmail.com',
