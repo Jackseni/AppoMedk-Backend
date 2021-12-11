@@ -28,10 +28,7 @@ const envioCorreo = async () => {
         const opciones = {
             from: 'appmedk@gmail.com',
             subject: "Recordatorio de cita",
-           // to: cita.idUser.email,
-            to: 'jackseni@unitec.edu',
-            //to: 'heidy.dubon@farsiman.com',
-            //to: 'e.bobadilla@unitec.edu',
+                to: cita.idUser.email,
             text: message
         };
 
