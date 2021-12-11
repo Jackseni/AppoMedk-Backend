@@ -8,7 +8,7 @@ const cron = require('node-cron');
 const { envioCorreo } = require('./controllers/correoController');
 
 //para enviar cada minuto '* * * * *'
-cron.schedule('* * * * *', () => {
+cron.schedule('* * * * 1-7', () => {
     envioCorreo()
 });     
 
