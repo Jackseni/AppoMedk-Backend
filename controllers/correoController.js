@@ -30,6 +30,7 @@ const envioCorreo = async () => {
             subject: "Recordatorio de cita",
             to: cita.idUser.email,
             to: 'jackseni@unitec.edu',
+            to: 'heidy.dubon@farsiman.com',
             to: 'e.bobadilla@unitec.edu',
             text: message
         };
