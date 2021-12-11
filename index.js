@@ -10,9 +10,9 @@ const { envioCorreo } = require('./controllers/correoController');
 //para enviar cada minuto '* * * * *'
 cron.schedule('* * * * *', () => {
     envioCorreo()
-});
+});     
 
-// Crear el servidor/aplicación de express
+// Crear el servidor/aplicación de express 
 const app = express();
 
 // Base de datos
